@@ -19,7 +19,7 @@ jobs:
         run: | 
             mkdir yat-demo
             chmod 777 yat-demo
-            cd /yat-demo
+            cd yat-demo
             npm install
       - name: Testing
         run: npm test 
